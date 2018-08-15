@@ -1,5 +1,6 @@
 Command Lines for Github
 These git commands will only work in the repository folder in your cmd
+How to properly use Github, you always want to start by doing git pull, then make your changes, 
 
 1) git clone <link: html:\\......>
 
@@ -17,7 +18,7 @@ that you might have pulled created by other users
 Gives you a view of what is added, committed, status of the local repository
 
 4) git commit 
-	git commit -m "gives it a message note" - this works after you have done git add 
+	git commit -m "gives it a message note" - this works after you type git add or git add -A
 	git commit -a <commits all files that is changed in the repository>
 	git commit <file> -m "message> - if you want to commit a certain file and not all files
 

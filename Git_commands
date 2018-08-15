@@ -42,5 +42,6 @@ the git diff, press Q
 
 8) Esc > : > wq - this will get you out of a merge screen in Github command, "wq" is a VI command
 
-9) git checkout <reversion id you get from git log> - this will convert the file back to the commit you want
+9) git checkout <reversion id you get from git log> - this will convert the file back to the commit you want, and you will no longer
+	be on the master branch, until you do the follow command.
 	git checkout master - this will convert the file back to the latest master

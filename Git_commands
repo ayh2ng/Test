@@ -18,6 +18,7 @@ Gives you a view of what is added, committed, status of the local repository
 
 4) git commit 
 	git commit -m "gives it a message note"
+	git commit -a <commits everything that is changed>
 
 This will commit the change into the cloud repository, to locked in 
 
@@ -28,3 +29,8 @@ This will push the commited file up into the cloud repository
 6) git pull
 
 This will pull all changes from the cloud repository into local repository
+
+7) git diff
+
+This will show you all the changes you have made from previous version to the version you are current trying to commit, if you want to exit
+the git diff, press Q

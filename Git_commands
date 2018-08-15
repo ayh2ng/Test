@@ -40,4 +40,4 @@ This will pull all changes from the cloud repository into local repository
 This will show you all the changes you have made from previous version to the version you are current trying to commit, if you want to exit
 the git diff, press Q
 
-8) Esc > :wq - this will save the merge in Github command, "wq" is a VI command
+8) Esc > : > wq - this will get you out of a merge screen in Github command, "wq" is a VI command

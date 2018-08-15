@@ -1,20 +1,30 @@
 Command Lines for Github
+These git commands will only work in the repository folder in your cmd
 
 1) git clone <link: html:\\......>
 
 This command is to download repositories for github into the folder you designated
 
 2) git add <file name.extention>
+	git add . <will add everything in your directory> 
+	git add -A  <will add everything in your directory, -A stands for all>
 
-This will add any changes into the local repository, but not yet uploaded into the git cloud repository
+This will add any changes into the local repository, but not yet uploaded into the git cloud repository, use this to also add untracked files
+that you might have pulled created by other users
 
-3a) git commit 
-3b) git commit -m "gives it a message note"
+3) git status 
+
+Gives you a view of what is added, committed, status of the local repository
+
+4) git commit 
+	git commit -m "gives it a message note"
 
 This will commit the change into the cloud repository, to locked in 
 
-4) git push
+5) git push
 
 This will push the commited file up into the cloud repository
 
+6) git pull
 
+This will pull all changes from the cloud repository into local repository

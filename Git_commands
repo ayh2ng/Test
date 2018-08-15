@@ -25,7 +25,7 @@ Gives you a view of what is added, committed, status of the local repository
 	git commit <file> -m "message> - if you want to commit a certain file and not all files
 
 This will commit the change into the cloud repository, to locked in.
-Sometimes you will run into merge issues, and after you fix it, you do git add -A, git commit, and see command 8) 
+Sometimes you will run into merge issues, and after you fix it, you do git add -A, git commit, and see command 8), it triggers a multi line message
 
 5) git push
 

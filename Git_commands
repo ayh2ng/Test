@@ -18,7 +18,8 @@ Gives you a view of what is added, committed, status of the local repository
 
 4) git commit 
 	git commit -m "gives it a message note"
-	git commit -a <commits everything that is changed>
+	git commit -a <commits all files that is changed in the repository, if you only want to commit some files and not all, you have to use
+		git add <file> -> git commit <file> -m "message
 
 This will commit the change into the cloud repository, to locked in 
 

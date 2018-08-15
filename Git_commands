@@ -24,7 +24,8 @@ Gives you a view of what is added, committed, status of the local repository
 	git commit -a <commits all files that is changed in the repository>
 	git commit <file> -m "message> - if you want to commit a certain file and not all files
 
-This will commit the change into the cloud repository, to locked in 
+This will commit the change into the cloud repository, to locked in.
+Sometimes you will run into merge issues, and after you fix it, you do git add -A, git commit, and see command 8) 
 
 5) git push
 
@@ -39,4 +40,4 @@ This will pull all changes from the cloud repository into local repository
 This will show you all the changes you have made from previous version to the version you are current trying to commit, if you want to exit
 the git diff, press Q
 
-8) Esc > : > wq - this will get you out of a stuck screen in Github command, "wq" is a VI command
+8) Esc > : > wq - this will get you out of a merge screen in Github command, "wq" is a VI command

@@ -1,0 +1,20 @@
+Command Lines for Github
+
+1) git clone <link: html:\\......>
+
+This command is to download repositories for github into the folder you designated
+
+2) git add <file name.extention>
+
+This will add any changes into the local repository, but not yet uploaded into the git cloud repository
+
+3a) git commit 
+3b) git commit -m "gives it a message note"
+
+This will commit the change into the cloud repository, to locked in 
+
+4) git push
+
+This will push the commited file up into the cloud repository
+
+

@@ -41,3 +41,5 @@ This will show you all the changes you have made from previous version to the ve
 the git diff, press Q
 
 8) Esc > : > wq - this will get you out of a merge screen in Github command, "wq" is a VI command
+
+Testing

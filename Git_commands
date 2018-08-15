@@ -1,6 +1,8 @@
 Command Lines for Github
 These git commands will only work in the repository folder in your cmd
-How to properly use Github, you always want to start by doing git pull, then make your changes, 
+How to properly use Github, you always want to start by doing git pull, then make your changes, git add and then git commit
+Sometimes you run into conflicts and you will see <<<<<<<<<< Head <your changes> ======== <their changes> >>>>>>>>>>>>, you have to fix this
+and commit again.
 
 1) git clone <link: html:\\......>
 
@@ -36,3 +38,5 @@ This will pull all changes from the cloud repository into local repository
 
 This will show you all the changes you have made from previous version to the version you are current trying to commit, if you want to exit
 the git diff, press Q
+
+8) Esc > : > wq - this will get you out of a stuck screen in Github command, "wq" is a VI command
